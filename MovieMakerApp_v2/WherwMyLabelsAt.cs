@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace MovieMakerApp_v2
 {
-    public partial class Form1 : Form
+    public partial class WherwMyLabelsAt : Form
     {
-        public Form1()
+        TicketManager tm = new TicketManager();
+
+        public WherwMyLabelsAt()
         {
             InitializeComponent();
         }
+
+       
     }
 }
